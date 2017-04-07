@@ -10,28 +10,89 @@ and open the template in the editor.
 
 #cabecera
 {
-    font-size: 40px;
+    
     text-align: center; 
 }
 
 .nombre
 {
-    
+    font-family: chiller;
+    color: #DF0174;
+    font-size: 80px;
+    text-align: center;
 }
 .nombre1
 {
-    
+    font-family:Blackadder ITC ;
+    color: #DAA764;
+    font-size: 2.5em;
+    text-align: center;
 }
 .menu
 {
+    text-align: center;
+}
+ul li
+{
+  list-style-type: none;
+    display: inline;
+    background: #FAD380;
+    border-radius: 25px;
+    font-size: 29px;
+    font-weight: inherit;
+    padding: 05px; 
+    font-family: forte;
     
 }
-ul
+a{
+    text-decoration: none;
+    color: #1D1DCE;
+}
+a:hover
 {
-    
+    color:red;
+    font-size: 32px;
+   
+}
+a:visited {/* profe,no se porque cuando le coloco este estilo me acmbia el anterior*/
+    color:  
+}
+a:active{
+    color:   grey;  
 }
 #contenido
 {
+    font-family: Edwardian Script ITC;
+    
+}
+.block1
+{
+    
+   
+    float: left;
+    border: 2px solid #CCC;
+  padding: 1em;
+  margin: 6em;
+  width: 200px;
+  position: relative;
+}
+html{
+   
+}
+.block2
+{
+   
+   float: left;
+    
+    border: 2px solid #CCC;
+  padding: 1em;
+  margin: 6em;
+  width:500px;
+  position: relative;
+    
+}
+.textvid{
+    font-size: 1.5em;
     
 }
 #pie
