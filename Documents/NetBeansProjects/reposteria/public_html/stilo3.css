@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 6, 2017, 10:56:14 PM
+    Author     : jp_20
+*/
+#cabecera
+{
+    
+    text-align: center; 
+}
+
+.nombre
+{
+    font-family: chiller;
+    color: #DF0174;
+    font-size: 80px;
+    text-align: center;
+}
+
+.nombre1{
+
+    font-family:Blackadder ITC ;
+    color: #04B404;
+    font-size: 2.5em;
+    text-align: center;
+}
+.menu
+{
+    text-align: center;
+}
+ span ul li 
+{
+  list-style-type: none;
+    display: inline;
+    background: #FAD380;
+    border-radius: 25px;
+    font-size: 29px;
+    font-weight: inherit;
+    padding: 05px; 
+    font-family: forte;
+    
+}
+a
+    {
+        text-decoration: none;
+     
+    }
+     
+     a:link 
+    {
+        color:yellow;
+    }
+     a:hover 
+    {
+        font-size: 25px;
+        color: red !important;
+    }
+    a:visited
+    {
+        color:black;
+    }
+    a:active
+    {
+        color: red;
+    } 
+
+ul.products li {
+    width: 370px; 
+    display: inline-block;
+    text-align: center; 
+    background-color:#FAD380; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+    border-radius: 10px; 
+    border: 2px solid #DF0174; 
+}
+#block_1
+	{
+	float: left;
+	width: 20%;
+	margin-left: 25%;
+	}
+* html #block_1
+	{
+	display: inline;
+	}
+#block_2
+	{
+	float: left;
+	width: 20%;
+	margin-left: -67%;
+	}
+#block_3
+	{
+	float: left;
+	width: 20%;
+        margin-left:27%;
+	}
+
+
+
+
+         body
+    {
+        background-image: url(imagenes/img-fondo1.jpg);
+        background-attachment:  fixed;
+    }
+     html
+    {
+        background-image: url(videos/img1.jpg);
+        background-attachment:  fixed;
+        
+    }
+    body{background-image: url(videos/img3.jpeg);
+        background-attachment:  fixed;
+        padding: 20px;
+        margin: 100px auto;
+        width: 900px;}
+    
+  

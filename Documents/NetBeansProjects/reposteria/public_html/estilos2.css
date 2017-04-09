@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/04/2017, 07:44:35 PM
+    Author     : bassc
+*/
+#cabecera
+{
+    
+    text-align: center; 
+}
+
+.nombre
+{
+    font-family: chiller;
+    color: #DF0174;
+    font-size: 80px;
+    text-align: center;
+}
+
+.nombre1{
+
+    font-family:Blackadder ITC ;
+    color: #04B404;
+    font-size: 2.5em;
+    text-align: center;
+}
+.menu
+{
+    text-align: center;
+}
+ span ul li 
+{
+  list-style-type: none;
+    display: inline;
+    background: #FAD380;
+    border-radius: 25px;
+    font-size: 29px;
+    font-weight: inherit;
+    padding: 05px; 
+    font-family: forte;
+    
+}
+a
+    {
+        text-decoration: none;
+     
+    }
+     
+     a:link 
+    {
+        color:yellow;
+    }
+     a:hover 
+    {
+        font-size: 25px;
+        color: red !important;
+    }
+    a:visited
+    {
+        color:black;
+    }
+    a:active
+    {
+        color: red;
+    } 
+
+
+#block_1
+	{
+	float: left;
+	width: 25%;
+	}
+#block_2
+	{
+	float: right;
+	width: 65%;
+	}
+
+#wrapper
+	{
+
+	float: left;
+
+	float/**/: none;
+	}
+
+#wrapper:after
+	{
+	content: '[DO NOT LEAVE IT IS NOT REAL]'; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+#wrapper
+	{
+	display: inline-block;
+	}
+/*\*/
+
+#footer
+	{
+	clear: both;
+	}
+        .vertical-menu {
+    width: 200px; 
+}
+
+.vertical-menu a {
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; 
+}
+
+.vertical-menu a.active {
+    background-color:#DF0174 ; 
+    color: white;
+}
+ html
+    {
+        background-image: url(videos/img1.jpg);
+        background-attachment:  fixed;
+        
+    }
+    body{background-image: url(videos/img3.jpeg);
+        background-attachment:  fixed;
+        padding: 20px;
+        margin: 100px auto;
+        width: 900px;}
+    
+  

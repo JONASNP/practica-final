@@ -5,12 +5,81 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>TODO supply a title</title>
+
+<head>
+        <title>reposteria</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilos2.css"/>
     </head>
-    <body>
-        <div>TODO write content</div>
+    <body >
+        
+        
+           
+        
+        
+        <div id="cabecera">
+            
+            
+            <div class="nombre"><img src="imagenes/002-icon.png"</>Reposteria popDany<img src="imagenes/001-icon.png"></></div>
+              <div class="nombre1">Bienvenidos al dulce mundo rosa de la Repostería Popdany... ¡Popdanytizate!</div>
+              <div class="menu">
+                   <span><ul>
+                    <li><a href="index.html">Inicio</a></li>
+                             <li><a href="quienes somos.html"</a>Sobre Nosotros</li>
+                             <li><a href="catalogo.html">Servicios</a></li>
+                             <li><a href="formulario.html">Contacto</a></li>
+                       </ul></span>
+              </div>
+        </div>
+            
+
+        
+              <div id="menu">
+            <h1> Contactanos </h1>
+              </div>
+            <form>
+                 <div id="label">
+                    <label for="number" > Telefono:</label>
+                    <input type="text" id="number" />
+                </div>
+                <br>
+                <div>
+                    <label for="nombre" > Nombre:</label>
+                    <input type="text" id="nombre"/>
+                </div>
+                <br>
+                <div>
+                    <label for="email" > E-mail:   </label>
+                    <input type="email" id="email"/>
+                </div>
+                <br>
+             
+                    <label for="asunto" > Que necesitas?:</label>
+                        
+                    <select id="asunto" name="asunto"> 
+                        <option value="" selected="selected">--Selecciona--</option>
+                        <option value="comentar">Quiero hacer un comentario</option>
+                        <option value="info">Quiero tener informacion de su tienda</option>
+                        <option value="entrega">Pedir costos de entrega</option>
+                        <option value="otro">Otro</option>
+                    </select>
+               <br>
+               
+                <div>
+                         <br>
+                    <label for="msg">Mensaje</label>
+                         
+                    <textarea id="msg" cols="40" rows="10"></textarea>
+                </div>
+                <br>
+                <div class="" id="menu">
+                    <br>
+                    <button type="submit"> Enviar mensaje</button>
+                    <a href="index.html">pagina principal </a>
+                </div>    
+            </form>
+            
+        
     </body>
 </html>

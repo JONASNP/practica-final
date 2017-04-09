@@ -4,10 +4,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 07/04/2017, 09:33:09 AM
+    Created on : 08/04/2017, 08:04:11 PM
     Author     : bassc
 */
-
 #cabecera
 {
     
@@ -68,40 +67,7 @@ a
     {
         color: red;
     } 
-
-#contenido
-{
-    font-family: Edwardian Script ITC;
-    
-}
-
-html{
-   
-}
-
-
-.slogan{
-        font-family:Blackadder ITC ;
-    color: #DF0174;
-    font-size: 2.5em;
-    text-align: center;
-    
-}
-.info{
-       font-family:forte;
-    color: #2E2E2E;
-    font-size: 1em;
-    text-align: center;
-    
-}
-#pie
-{
-    background: #FAD380;
-    text-align: center;
-    font-family:arial;
-}
- 
-    html
+ html
     {
         background-image: url(videos/img1.jpg);
         background-attachment:  fixed;
@@ -113,52 +79,58 @@ html{
         margin: 100px auto;
         width: 900px;}
     
-  
-    
-    
-    
-    .suc1{
-        float: left;
-        font-family: forte;
-        color: black;
-        margin: 1em 1em 1em 3em ;
-         background-color: #FAD380;
-       padding: 10px;
-       border-radius: 50px;
-     
-    }
-    .suc2{
-        float: left;
-        font-family: forte;
-        color: black;
-        margin: 1em  ;
-       background-color: #FAD380;
-       padding: 10px;
-       border-radius: 50px;
-      
-         
-       
-    }
-    .suc3{
-        float: left;
-        font-family: forte;
-        color: black;
-        margin: 1em 2em;
-       background-color: #FAD380;
-       padding: 10px;
-       border-radius: 50px;
-      
-         
-       
-    }
-    .cajavideo{
-    position: absolute;
-    display: inline;
-    color: #585858;
-    font-size: 1.6em;
-    padding: 10px 2px 1px 20px; 
-    font-family: forte;
-    text-align: center;
+  form
+    {
+        /*centrando el formulario y poniendo borde*/
+        font-size: 10px;
+        background-color: white;
+        margin: 2px auto;
+        width: 800px;
+        padding: 1em;
+        border: 2px solid #000 ;
+        border-radius: 1em;
         
     }
-     
+    for div
+    {
+        margin-top: 2em;
+        
+    }
+    label
+    {
+        margin: 2px auto;
+        display: inline-block;
+        size: 100px;
+        margin: 1px;
+        
+        text-align: right;
+    }
+    #jp
+    {
+        text-align: center;
+        background: #0080FF
+    }
+
+
+    input
+    {
+        
+        font:Segoe UI Light;
+        width: 200px;
+        
+    }
+    input:focus, textArea:focus{
+        border-color: red;
+    }
+    textarea{
+        size: 200px;
+        font-size: 20px;
+        vertical-align: top;
+    }
+    
+    
+    lol
+    {
+        font-size: 100px;
+        text-align: left;
+    }
