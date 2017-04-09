@@ -94,12 +94,7 @@ html{
     text-align: center;
     
 }
-#pie
-{
-    background: #FAD380;
-    text-align: center;
-    font-family:arial;
-}
+
  
     html
     {
@@ -113,7 +108,12 @@ html{
         margin: 100px auto;
         width: 900px;}
     
-  
+  #pie
+{
+    background: #FAD380;
+    text-align: center;
+    font-family:arial;
+}
     
     
     

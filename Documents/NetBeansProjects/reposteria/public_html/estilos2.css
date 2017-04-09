@@ -138,4 +138,46 @@ a
         margin: 100px auto;
         width: 900px;}
     
-  
+    #pie
+{
+    background: #FAD380;
+    text-align: center;
+    font-family:arial;
+}
+    
+    
+    
+    .suc1{
+        float: left;
+        font-family: forte;
+        color: black;
+        margin: 1em 1em 1em 3em ;
+         background-color: #FAD380;
+       padding: 10px;
+       border-radius: 50px;
+     
+    }
+    .suc2{
+        float: left;
+        font-family: forte;
+        color: black;
+        margin: 1em  ;
+       background-color: #FAD380;
+       padding: 10px;
+       border-radius: 50px;
+      
+         
+       
+    }
+    .suc3{
+        float: left;
+        font-family: forte;
+        color: black;
+        margin: 1em 2em;
+       background-color: #FAD380;
+       padding: 10px;
+       border-radius: 50px;
+      
+         
+       
+    }
